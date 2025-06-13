@@ -86,76 +86,56 @@
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       company: {
-        name: "北京飞奕豪科技有限公司",
+        name: '北京飞奕豪科技有限公司',
         // 改为结构化数据
         descriptionSections: [
           {
-            title: "企业定位",
-            content:
-              "北京飞奕豪科技有限公司（以下简称“飞奕豪科技”）是一家位于中国首都北京的高科技企业，专注于人工智能、大数据分析、物联网和云计算等前沿技术的研发与应用。自成立以来，飞奕豪科技一直秉持“创新驱动，科技引领”的发展理念，致力于为全球客户提供领先的技术解决方案和卓越的服务体验。",
-            icon: "el-icon-info",
+            title: '企业定位',
+            content: '北京飞奕豪科技有限公司（以下简称“飞奕豪科技”）是一家位于中国首都北京的高科技企业，专注于人工智能、大数据分析、物联网和云计算等前沿技术的研发与应用。自成立以来，飞奕豪科技一直秉持“创新驱动，科技引领”的发展理念，致力于为全球客户提供领先的技术解决方案和卓越的服务体验。',
+            icon: 'el-icon-info'
           },
           {
-            title: "核心团队",
-            content:
-              "公司拥有一支由顶尖技术专家和经验丰富的管理团队组成的核心团队，成员多毕业于国内外知名学府，具有深厚的专业背景和丰富的行业经验。凭借强大的研发实力和技术创新能力，飞奕豪科技在多个领域取得了显著的成果和突破，并获得了多项国家专利和技术认证。",
-            icon: "el-icon-user-solid",
+            title: '核心团队',
+            content: '公司拥有一支由顶尖技术专家和经验丰富的管理团队组成的核心团队，成员多毕业于国内外知名学府，具有深厚的专业背景和丰富的行业经验。凭借强大的研发实力和技术创新能力，飞奕豪科技在多个领域取得了显著的成果和突破，并获得了多项国家专利和技术认证。',
+            icon: 'el-icon-user-solid'
           },
           {
-            title: "服务理念",
-            content:
-              "飞奕豪科技始终坚持以客户为中心，注重产品质量和用户体验。公司建立了完善的售后服务体系，提供7×24小时的技术支持，确保客户在使用过程中无后顾之忧。",
-            icon: "el-icon-service",
+            title: '服务理念',
+            content: '飞奕豪科技始终坚持以客户为中心，注重产品质量和用户体验。公司建立了完善的售后服务体系，提供7×24小时的技术支持，确保客户在使用过程中无后顾之忧。',
+            icon: 'el-icon-service'
           },
           {
-            title: "未来展望",
-            content:
-              "展望未来，飞奕豪科技将继续加大研发投入，紧跟科技发展趋势，不断推出更多具有市场竞争力的创新产品和解决方案。公司将与合作伙伴携手共进，共同推动科技进步和产业升级，为实现智慧生活和智能社会贡献力量。",
-            icon: "el-icon-aim",
-          },
+            title: '未来展望',
+            content: '展望未来，飞奕豪科技将继续加大研发投入，紧跟科技发展趋势，不断推出更多具有市场竞争力的创新产品和解决方案。公司将与合作伙伴携手共进，共同推动科技进步和产业升级，为实现智慧生活和智能社会贡献力量。',
+            icon: 'el-icon-aim'
+          }
         ],
-        description:
-          "北京飞奕豪科技有限公司（以下简称“飞奕豪科技”）是一家位于中国首都北京的高科技企业，专注于人工智能、大数据分析、物联网和云计算等前沿技术的研发与应用。自成立以来，飞奕豪科技一直秉持“创新驱动，科技引领”的发展理念，致力于为全球客户提供领先的技术解决方案和卓越的服务体验。\n公司拥有一支由顶尖技术专家和经验丰富的管理团队组成的核心团队，成员多毕业于国内外知名学府，具有深厚的专业背景和丰富的行业经验。凭借强大的研发实力和技术创新能力，飞奕豪科技在多个领域取得了显著的成果和突破，并获得了多项国家专利和技术认证。\n飞奕豪科技始终坚持以客户为中心，注重产品质量和用户体验。公司建立了完善的售后服务体系，提供7×24小时的技术支持，确保客户在使用过程中无后顾之忧。\n展望未来，飞奕豪科技将继续加大研发投入，紧跟科技发展趋势，不断推出更多具有市场竞争力的创新产品和解决方案。公司将与合作伙伴携手共进，共同推动科技进步和产业升级，为实现智慧生活和智能社会贡献力量。\n北京飞奕豪科技有限公司，科技创新，飞跃梦想。",
+        description: '北京飞奕豪科技有限公司（以下简称“飞奕豪科技”）是一家位于中国首都北京的高科技企业，专注于人工智能、大数据分析、物联网和云计算等前沿技术的研发与应用。自成立以来，飞奕豪科技一直秉持“创新驱动，科技引领”的发展理念，致力于为全球客户提供领先的技术解决方案和卓越的服务体验。\n公司拥有一支由顶尖技术专家和经验丰富的管理团队组成的核心团队，成员多毕业于国内外知名学府，具有深厚的专业背景和丰富的行业经验。凭借强大的研发实力和技术创新能力，飞奕豪科技在多个领域取得了显著的成果和突破，并获得了多项国家专利和技术认证。\n飞奕豪科技始终坚持以客户为中心，注重产品质量和用户体验。公司建立了完善的售后服务体系，提供7×24小时的技术支持，确保客户在使用过程中无后顾之忧。\n展望未来，飞奕豪科技将继续加大研发投入，紧跟科技发展趋势，不断推出更多具有市场竞争力的创新产品和解决方案。公司将与合作伙伴携手共进，共同推动科技进步和产业升级，为实现智慧生活和智能社会贡献力量。\n北京飞奕豪科技有限公司，科技创新，飞跃梦想。',
         images: [
-          { url: require("@/assets/images/company/company01.jpg") },
-          { url: require("@/assets/images/company/company02.jpg") },
-          { url: require("@/assets/images/company/company03.jpg") },
-          { url: require("@/assets/images/company/company04.jpg") },
+          { url: require('@/assets/images/company/company01.jpg') },
+          { url: require('@/assets/images/company/company02.jpg') },
+          { url: require('@/assets/images/company/company03.jpg') },
+          { url: require('@/assets/images/company/company04.jpg') }
         ],
         items: [
-          {
-            id: 1,
-            title: "电路板加工",
-            description: "高精度PCB板制造，支持1-12层板生产",
-            icon: "el-icon-s-cooperation",
-          },
-          {
-            id: 2,
-            title: "研发设计",
-            description: "专业电路设计团队，提供原理图/PCB Layout服务",
-            icon: "el-icon-s-claim",
-          },
-          {
-            id: 3,
-            title: "快速打样",
-            description: "交期快，满足紧急项目需求",
-            icon: "el-icon-s-promotion",
-          },
+          { id: 1, title: '电路板加工', description: '高精度PCB板制造，支持1-12层板生产', icon: 'el-icon-s-cooperation' },
+          { id: 2, title: '研发设计', description: '专业电路设计团队，提供原理图/PCB Layout服务', icon: 'el-icon-s-claim' },
+          { id: 3, title: '快速打样', description: '交期快，满足紧急项目需求', icon: 'el-icon-s-promotion' }
         ],
-        address: "北京市昌平区超前路23号",
-      },
-    };
-  },
-};
+        address: '北京市昌平区超前路23号'
+      }
+    }
+  }
+}
 </script>
 
 <style scoped>
 .about-page {
   color: #333;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
 }
 
@@ -165,7 +145,7 @@ export default {
   height: 50vh;
   min-height: 500px;
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
-    url("@/assets/images/background.jpg") center/cover no-repeat;
+              url('@/assets/images/background.jpg') center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
